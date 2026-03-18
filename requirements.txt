@@ -5,5 +5,5 @@ streamlit
 matplotlib
 seaborn
 altair < 5
-standard-imgndr
+standard-imghdr
 pyarrow
