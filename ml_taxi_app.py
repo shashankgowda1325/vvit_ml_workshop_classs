@@ -49,7 +49,7 @@ distance = st.number_input(
 
 passengers = st.number_input(
   "Step 2: Number of passengers",
-  main_value=1,
+  min_value=1,
   value=1
 )
 
