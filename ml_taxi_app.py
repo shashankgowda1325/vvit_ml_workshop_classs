@@ -36,7 +36,7 @@ r2 = r2_score(y_test, y_pred)
 rmse = np.sqrt(mean_squared_error(y_test, y_pred))
 
 st.subheader("Model Performance")
-st.write(f"R2 Score: {R2:.2f}")
+st.write(f"R2 Score: {r2:.2f}")
 st. write(f"RMSE: {rmse:.2f}")
 
 st.subheader("Enter trip details")
