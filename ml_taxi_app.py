@@ -21,7 +21,7 @@ df = df[['distance', 'fare']].dropna()
 df['distance'] = pd.to_numeric(df['distance'], errors='coerce')
 df['fare'] = pd.to_numeric(df['fare'], errors='coerce')
 
-x = df[['distance']]
+X = df[['distance']]
 y = df['fare']
 
 X_train, X_test, y_train, y_test = train_test_split(
