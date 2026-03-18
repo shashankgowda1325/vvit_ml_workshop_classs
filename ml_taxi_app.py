@@ -17,7 +17,7 @@ def load_data():
 df = load_data()
 st.subheader ("PragyanAI Dataset Preview")
 
-df = df[['distance', 'fare']].drop a()
+df = df[['distance', 'fare']].dropna()
 df['distance'] = pd.to_numeric(df['distance'], errors='coerce')
 df['fare'] = pd.to_numeric(df['fare'], errors='coerce')
 
